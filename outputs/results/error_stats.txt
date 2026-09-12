@@ -1,0 +1,10 @@
+VALIDATION ERROR STATISTICS
+===========================
+Number of measurements     : 20
+Mean error (bias)          : -0.30 mm
+Std of error               : 0.12 mm
+Mean absolute error (MAE)  : 0.30 mm
+RMSE                       : 0.32 mm
+Max absolute error         : 0.54 mm
+Mean abs percentage error  : 0.12 %
+Median abs percentage error: 0.11 %
