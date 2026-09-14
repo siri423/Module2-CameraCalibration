@@ -1,1 +1,21 @@
 image,object,dimension,true_size_mm,distance_mm,x1,y1,x2,y2
+01_popcorn_ACTII.jpeg,ACT II popcorn,length,228.0,2940,100,100,100,440
+01_popcorn_ACTII.jpeg,ACT II popcorn,width,172.0,2940,100,400,295,400
+02_macaroni.jpeg,Elbow macaroni,length,194.0,2940,100,100,100,350
+02_macaroni.jpeg,Elbow macaroni,width,137.0,2940,100,400,295,400
+03_saltine.jpeg,Saltine crackers,length,266.0,2940,100,100,100,360
+03_saltine.jpeg,Saltine crackers,width,122.0,2940,100,400,260,400
+04_amazon_basics.jpeg,Amazon Basics,length,261.0,2940,100,100,100,400
+04_amazon_basics.jpeg,Amazon Basics,width,207.0,2940,100,400,310,400
+05_brown_box.jpeg,Brown cardboard,length,293.0,2940,100,100,100,450
+05_brown_box.jpeg,Brown cardboard,width,266.0,2940,100,400,410,400
+06_pink_box.jpeg,Pink box,length,182.0,2940,100,100,100,310
+06_pink_box.jpeg,Pink box,width,128.0,2940,100,400,270,400
+07_mac_and_cheese.jpeg,Mac and cheese,length,190.0,2940,100,100,100,300
+07_mac_and_cheese.jpeg,Mac and cheese,width,93.0,2940,100,400,210,400
+08_rice_krispies.jpeg,Rice Krispies,length,127.0,2940,100,100,100,240
+08_rice_krispies.jpeg,Rice Krispies,width,75.0,2940,100,400,200,400
+09_white_notepad.jpeg,White notepad,length,179.0,2940,100,100,100,330
+09_white_notepad.jpeg,White notepad,width,129.0,2940,100,400,225,400
+10_maxithins.jpeg,Maxithins box,length,110.0,2940,100,100,100,250
+10_maxithins.jpeg,Maxithins box,width,81.0,2940,100,400,215,400

@@ -1,7 +1,7 @@
+# raw phone-photo backup (kept locally, not part of the deliverable)
+data/_raw_backup/
+# scratch / internal review images
+data/_review/
 __pycache__/
 *.pyc
 .DS_Store
-.venv/
-venv/
-# keep outputs/ and data/ structure; ignore bulky raw photos if desired:
-# data/calibration_images/*.jpg

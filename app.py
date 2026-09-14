@@ -29,6 +29,7 @@ CAL_IMG_DIR = os.path.join(HERE, "data", "calibration_images")
 VAL_IMG_DIR = os.path.join(HERE, "data", "validation_images")
 OUT = os.path.join(HERE, "outputs")
 CALIB_PATH = os.path.join(OUT, "calibration.npz")
+VALCALIB_PATH = os.path.join(OUT, "calibration_2160.npz")  # 16:9 mode = validation photos
 LOG_PATH = os.path.join(HERE, "measurements_log.csv")
 RESULTS = os.path.join(OUT, "results")
 LOG_HEADER = ["image", "object", "dimension", "true_size_mm",
@@ -177,7 +178,8 @@ with tabs[3]:
     if st.button("Run validation", type="primary"):
         log = os.path.join(OUT, "synthetic_measurements_log.csv") if use_syn_v else LOG_PATH
         try:
-            rows, stats = run_validation(CALIB_PATH, log, RESULTS)
+            val_calib = CALIB_PATH if use_syn_v else VALCALIB_PATH  # validation photos are 16:9
+            rows, stats = run_validation(val_calib, log, RESULTS)
             st.text(stats)
             plot = os.path.join(RESULTS, "error_plots.png")
             if os.path.exists(plot):
