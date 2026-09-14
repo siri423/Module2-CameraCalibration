@@ -1,11 +1,11 @@
-object,meas_L_cm,meas_W_cm,true_L_cm,true_W_cm,err_L_%,err_W_%,distance_m,2.94
-ACT II popcorn,26.5,15.2,22.8,17.2,16,-12
-Elbow macaroni,19.5,15.2,19.4,13.7,1,11
-Saltine crackers,20.2,12.5,26.6,12.2,-24,2
-Amazon Basics,23.3,16.3,26.1,20.7,-11,-21
-Brown cardboard,27.2,24.1,29.3,26.6,-7,-9
-Pink box,16.3,13.2,18.2,12.8,-10,3
-Mac & cheese,15.6,8.6,19.0,9.3,-18,-8
-Rice Krispies,10.9,7.8,12.7,7.5,-14,4
-White notepad,17.9,9.7,17.9,12.9,0,-25
-Maxithins box,11.7,8.9,11.0,8.1,6,10
+object,measured_length_cm,measured_width_cm,true_length_cm,true_width_cm,length_error_pct,width_error_pct,distance_m
+ACT II popcorn,26.5,15.2,22.8,17.2,16.2,-11.6,2.94
+Elbow macaroni,19.5,15.2,19.4,13.7,0.5,10.9,2.94
+Saltine crackers,20.2,12.5,26.6,12.2,-24.1,2.5,2.94
+Amazon Basics,23.3,16.3,26.1,20.7,-10.7,-21.3,2.94
+Brown cardboard,27.2,24.1,29.3,26.6,-7.2,-9.4,2.94
+Pink box,16.3,13.2,18.2,12.8,-10.4,3.1,2.94
+Mac and cheese,15.6,8.6,19.0,9.3,-17.9,-7.5,2.94
+Rice Krispies,10.9,7.8,12.7,7.5,-14.2,4.0,2.94
+White notepad,17.9,9.7,17.9,12.9,0.0,-24.8,2.94
+Maxithins box,11.7,8.9,11.0,8.1,6.4,9.9,2.94
