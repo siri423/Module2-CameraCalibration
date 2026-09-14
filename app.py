@@ -105,11 +105,12 @@ with tabs[2]:
     if not os.path.exists(CALIB_PATH):
         st.warning("Run Step 1 first.")
     else:
-        c = load_calibration(CALIB_PATH)
+        c = load_calibration(VALCALIB_PATH if os.path.exists(VALCALIB_PATH) else CALIB_PATH)
         K, dist = c["camera_matrix"], c["dist_coeffs"]
+        st.caption("Using the 16:9-mode calibration (f=3778) that matches the object photos.")
         img_up = st.file_uploader("Object photo", type=["jpg", "jpeg", "png"], key="obj")
         dist_mm = st.number_input("Camera-to-object distance Z (mm)", 100.0,
-                                  20000.0, 2500.0, step=10.0)
+                                  20000.0, 2940.0, step=10.0)
         if img_up:
             pil = Image.open(img_up).convert("RGB")
             ow, oh = pil.size
