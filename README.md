@@ -6,6 +6,16 @@ photos, (2) measures the real-world 2D size of an object from a single photo
 using perspective projection, and (3) validates the method on 20 measurements
 taken from > 2 m away and reports error statistics.
 
+
+## Live web app
+The full application is deployed and publicly accessible here:
+
+**Live app:** PASTE_YOUR_STREAMLIT_LINK_HERE
+
+**Repository:** https://github.com/siri423/Module2-CameraCalibration
+
+_Hosted on Streamlit Community Cloud, running directly from this repository._
+
 ---
 
 ## Folder structure
