@@ -10,7 +10,7 @@ taken from > 2 m away and reports error statistics.
 ## Live web app
 The full application is deployed and publicly accessible here:
 
-**Live app:** PASTE_YOUR_STREAMLIT_LINK_HERE
+**Live app:** https://module2-cameracalibration-8wctrknhpconzmxfajfeyk.streamlit.app/
 
 **Repository:** https://github.com/siri423/Module2-CameraCalibration
 
